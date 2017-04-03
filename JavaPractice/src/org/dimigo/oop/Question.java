@@ -37,10 +37,7 @@ public class Question {
 
 		for (int i = 0; i < 3; i++) {
 			StringBuilder a = new StringBuilder("가장 좋아하는 ");
-			a.append(questions[i]);
-			a.append("는? ");
-			a.append(answers[i]);
-			a.append("입니다.");
+			a.append(questions[i]).append("는? ").append(answers[i]).append("입니다.");
 			
 			System.out.println(a);
 			
