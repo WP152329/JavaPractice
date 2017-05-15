@@ -12,8 +12,8 @@ package org.dimigo.inheritance;
  * 2. 작성일 : 2017. 5. 12.
  * </pre>
  *
- * @author 		: cdb23
- * @version		: 1.0
+ * @author : cdb23
+ * @version : 1.0
  */
 public class Galaxy extends SmartPhone {
 
@@ -25,12 +25,12 @@ public class Galaxy extends SmartPhone {
 		super(model, company, price);
 	}
 
-	public void pay(){
+	public void pay() {
 		System.out.println("삼성 페이로 결제합니다.");
 	}
-	
-	public void useWirelessCharging(){
+
+	public void useWirelessCharging() {
 		System.out.println("무선 충전 기능을 이용합니다.");
 	}
-	
+
 }

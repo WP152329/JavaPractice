@@ -6,7 +6,7 @@ package org.dimigo.inheritance;
 /**
  * <pre>
  * org.dimigo.inheritance
- *   |_ IPhone
+ *   |_ IPhone 
  *
  * 1. 개요 : 
  * 2. 작성일 : 2017. 5. 12.

@@ -50,8 +50,7 @@ public class SmartPhone {
 		if (phone instanceof IPhone) {
 			IPhone ip = (IPhone) phone;
 			ip.useAirDrop();
-		}
-		else if(phone instanceof Galaxy){
+		} else if (phone instanceof Galaxy) {
 			Galaxy ga = (Galaxy) phone;
 			ga.useWirelessCharging();
 		}
